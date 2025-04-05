@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-    <div className=" relative bg-[url('Images/hero.png')] bg-cover h-screen bg-center">
+    <div className=" relative bg-[url('/Images/hero.png')] bg-cover h-screen bg-center">
     <div  className="absolute inset-0 bg-gradient-to-b from-[rgba(8,0,58,0.7)] to-[rgba(8,0,58,0.7)]"></div>
     <div className='relative z-10'>
     <Navbar/>
