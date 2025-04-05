@@ -3,7 +3,7 @@ import './Programs.css'
 
 const Programs = () => {
   return (
-    <div className="programs">
+    <div id='program' className="programs">
       <div className="program">
         <img src="/Images/program-1.png" alt="" />
         <div className="caption">

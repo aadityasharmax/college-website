@@ -5,6 +5,10 @@ import Programs from './components/Programs/Programs.jsx'
 import Title from './components/Title.jsx'
 import About from './components/About/About.jsx'
 import Gallery from './components/Gallery.jsx'
+import Testimonials from './components/Testimonials/Testimonials.jsx'
+import ContactUs from './components/Contact Us/ContactUs.jsx'
+import { ToastContainer, toast } from "react-toastify";
+import Footer from './components/Footer.jsx'
 
 function App() {
   
@@ -22,6 +26,11 @@ function App() {
     <Title subTitle='GALLERY' title='Campus Photos'/>
     <Gallery/>
     <Title subTitle='TESTIMONIALS' title='What Student Says'/>
+    <Testimonials/>
+    <Title subTitle='Contact Us' title='Get in Touch'/>
+    <ContactUs/>
+    <Footer/>
+    <ToastContainer position="top-right" draggable newestOnTop theme='light' />
     </div>
     
     </div>

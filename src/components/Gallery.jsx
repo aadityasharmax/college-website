@@ -3,7 +3,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Gallery = () => {
   return (
-    <div className='flex flex-col items-center'>
+    <div className='flex flex-col items-center' id='campus'>
         <div className="flex w-full max-w-[1200px] h-[300px] gap-9 justify-center my-[80px] cursor-pointer">
             <img className="rounded-2xl h-full" src="/Images/gallery-1.png" alt="" />
             <img className="rounded-2xl h-full" src="/Images/gallery-2.png" alt="" />

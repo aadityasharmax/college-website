@@ -4,7 +4,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const Hero = () => {
   return (
     <>
-    <div className="flex gap-5 justify-center items-center flex-col h-screen text-white">
+    <div id='hero' className="flex gap-5 justify-center items-center flex-col h-screen text-white">
           <h1 className='text-6xl text-center font-[600] leading-normal'> 
           We Ensure better education<br/> for a better world
           </h1>

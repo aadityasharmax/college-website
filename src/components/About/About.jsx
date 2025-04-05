@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='flex ml-auto mr-auto mt-[100px] mb-[100px] items-center justify-between w-[80%] '>
+    <div className='flex ml-auto mr-auto mt-[100px] mb-[100px] items-center justify-between w-[80%] ' id='about'>
 
         <div className='basis-[40%] relative flex justify-center mb-[30px]'>
             <img className="w-[80%] rounded-3xl " src="/Images/about.png" alt="" />
